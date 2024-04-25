@@ -1,0 +1,29 @@
+.acf-field-flexible-content .acf-field {
+	border: 0 !important;
+}
+.acf-field-flexible-content .acf-fields {
+	padding: 6px 0 12px !important;
+	border: 0 !important;
+}
+.acf-field-flexible-content .acf-fields label {
+	font-weight: 300 !important;
+	font-size: 14px;
+}
+.acf-field-flexible-content .acf-fields > .acf-field {
+	padding: 6px 12px !important;
+}
+.hide-title > .acf-label,
+.hide-group > .acf-label {
+	display: none;
+}
+.acf-flexible-content .layout {
+	border-radius: 4px;
+}
+.colour-dd {
+	max-width: 200px !important;
+}
+
+.colour-dd .select2-selection {
+	height: 42px !important;
+	padding: 4px 2px !important;
+}

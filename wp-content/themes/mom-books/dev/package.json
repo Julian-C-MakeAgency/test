@@ -1,0 +1,11 @@
+{
+  "name": "mombooks",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "watch-css": "tailwindcss -i ./src/styles.css -o ../assets/css/styles.css --watch"
+  }
+}

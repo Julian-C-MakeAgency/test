@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.w-carousel {
+	width: calc((100vw - 2rem));
+}
+
+@media only screen and (min-width: 640px) {
+	.w-carousel {
+	width: calc((100vw - 3rem) / 2);
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.w-carousel {
+	width: calc((100vw - 3rem) / 3);
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.w-carousel {
+	width: calc((100vw - 6rem) / 3);
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.w-carousel {
+	width: calc(84rem / 3);
+	}
+}
+
+.w-carousel-post {
+	width: calc((100vw - 2rem));
+}
+
+@media only screen and (min-width: 640px) {
+	.w-carousel-post {
+	width: calc((100vw - 3rem) / 2);
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.w-carousel-post {
+	width: calc((100vw - 3rem) / 2);
+	}
+}
+@media only screen and (min-width: 1280px) {
+	.w-carousel-post {
+	width: calc((100vw - 6rem) / 2);
+	}
+}
+@media only screen and (min-width: 1440px) {
+	.w-carousel-post {
+	width: calc(84rem / 2);
+	}
+}
+.swiper-btn:after{
+	font-size: 30px !important;
+}
+.aligncenter {
+	text-align: center;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+footer #field_submit input {
+	color: #013367;
+	background: #fff;
+	border-radius: 18px;
+}
+
+footer .ginput_container_email input {
+	background: transparent !important;
+	border: 0 !important;
+	border-bottom: 1px solid #fff !important;
+	color: #fff !important;
+	text-align: left;
+}
+
+.clr-field {
+	border-radius: 6px;
+	overflow: hidden;
+	margin-bottom: 12px;
+}
+
+.btn-cta{
+	@apply inline-block font-medium py-3 px-8 bg-sky-900 text-white rounded-3xl;
+}

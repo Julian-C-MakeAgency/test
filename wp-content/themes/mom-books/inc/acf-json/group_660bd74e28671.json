@@ -1,0 +1,57 @@
+{
+    "key": "group_660bd74e28671",
+    "title": "Background Colour",
+    "fields": [
+        {
+            "key": "field_660bd74e04a3a",
+            "label": "Background Colour",
+            "name": "background_colour",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "colour-dd",
+                "id": ""
+            },
+            "choices": {
+                "#FEF8ED": "Beige \/ #FEF8ED",
+                "#FFFFFF": "White \/ #FFFFFF",
+                "#6E8B99": "Slate 500 \/ #6E8B99",
+                "#a3becc": "Slate 400 \/ #a3becc",
+                "#CEE1EB": "Slate 300 \/ #CEE1EB",
+                "#f0f6fa": "Slate 200 \/ #f0f6fa",
+                "#F7FBFC": "Slate 100 \/ #F7FBFC",
+                "#FBFDFE": "Off White \/ #FBFDFE"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "post"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": false,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1713874851
+}
